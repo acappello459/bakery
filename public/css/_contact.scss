@@ -3,6 +3,8 @@
   font-size: 2em;
   text-shadow: -1px 0 #890909, 0 1px #890909, 1px 0 #890909, 0 -1px #890909;
   color: white;
+  text-align: center;
+  margin: 0 auto;
 }
 .wrapper6{
   display: grid;
@@ -14,7 +16,7 @@
 #clientEmail{
 width: 25%;
 height: 3vh;
-margin: auto 5px;
+margin: auto auto;
 grid-row: 1/2;
 // margin: 0 auto;
 box-sizing: border-box;
@@ -24,7 +26,7 @@ box-sizing: border-box;
 height: 25vh;
 width: 25%;
 // padding:0;
-margin: auto 5px;
+margin: auto auto;
 grid-row: 2/3;
 box-sizing: border-box;
 resize: none;
@@ -33,7 +35,7 @@ resize: none;
 #submit{
   grid-row: 3/4;
   box-sizing: border-box;
-  height: 2vh;
+  height: 4vh;
   width: 10%;
-  margin: auto 5px;
+  margin: auto auto;
 }
