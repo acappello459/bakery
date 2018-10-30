@@ -1,19 +1,94 @@
 .wrapper3{
+  height: 100vh;
+  width: 100%;
+  display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows:1fr 1fr 1fr;
+}
+#heading{
+  font-size: 2em;
+  text-shadow: -1px 0 #890909, 0 1px #890909, 1px 0 #890909, 0 -1px #890909;
+  color: white;
+  text-align: center;
+  margin: 20px auto;
+  width: 75%;
 }
 
 #smallPlatter{
   grid-column: 1/2;
   grid-row: 1/2;
+  width: 50%;
+  height: 20vh;
+  background-image: url('../images/smallplatter.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin: 25px auto;
+  border-radius: 15px;
+  // border: 2px solid black;
+  text-align: center;
+  font-size: 2em;
+  text-shadow: -1px 0 #890909, 0 1px #890909, 1px 0 #890909, 0 -1px #890909;
+  color: white;
 }
 
 #mediumPlatter{
   grid-column: 1/2;
   grid-row: 2/3;
+  width: 50%;
+  height: 20vh;
+  background-image: url('../images/mediumplatter.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin: 25px auto;
+  border-radius: 15px;
+  border: 2px solid black;
+  text-align: center;
+  font-size: 2em;
+  text-shadow: -1px 0 #890909, 0 1px #890909, 1px 0 #890909, 0 -1px #890909;
+  color: white;
 }
 
 #largePlatter{
   grid-column: 1/2;
   grid-row: 3/4;
+  width: 50%;
+  height: 20vh;
+  background-image: url('../images/largeplatter.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin: 25px auto;
+  // border: 2px solid;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 2em;
+  text-shadow: -1px 0 #890909, 0 1px #890909, 1px 0 #890909, 0 -1px #890909;
+  color: white;
+}
+
+#smallPrice{
+  grid-column: 2/3;
+  grid-row: 1/2;
+  margin: 25px auto;
+  font-size: 2em;
+    text-shadow: -1px 0 #890909, 0 1px #890909, 1px 0 #890909, 0 -1px #890909;
+    color: white;
+
+}
+#mediumPrice{
+  grid-column: 2/3;
+  grid-row: 2/3;
+  margin: 25px auto;
+  font-size: 2em;
+    text-shadow: -1px 0 #890909, 0 1px #890909, 1px 0 #890909, 0 -1px #890909;
+    color: white;
+
+}
+#largePrice{
+  grid-column: 2/3;
+  grid-row: 3/4;
+  margin: 25px auto;
+  font-size: 2em;
+    text-shadow: -1px 0 #890909, 0 1px #890909, 1px 0 #890909, 0 -1px #890909;
+    color: white;
+
 }
