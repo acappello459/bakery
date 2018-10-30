@@ -1,0 +1,18 @@
+@import 'navbar';
+@import 'home';
+@import 'cakes';
+@import 'cookies';
+@import 'pies';
+@import 'contact';
+// body{
+//   background-image: url("../images/background.jpg");
+//   background-size: 100% 100%;
+//   background-repeat: no-repeat;
+// }
+.main-container{
+  width: 100%;
+  height: 100vh;
+  background-image: url("../images/background.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}

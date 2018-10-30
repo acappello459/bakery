@@ -1,0 +1,117 @@
+.wrapper2{
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+#fullSheet{
+  grid-column: 1/2;
+  grid-row: 1/2;
+  background-image: url('../images/fullsheetcake.jpg');
+  width: 50%;
+  height: 90%;
+  margin: 0 auto;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 2em;
+  text-shadow: -1px 0 #890909, 0 1px #890909, 1px 0 #890909, 0 -1px #890909;
+  color: white;
+}
+
+#halfSheet{
+  grid-column: 1/2;
+  grid-row: 2/3;
+  background-image: url('../images/halfsheetcake.jpg');
+  width: 50%;
+  height: 90%;
+  margin: 0 auto;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 2em;
+  text-shadow: -1px 0 #890909, 0 1px #890909, 1px 0 #890909, 0 -1px #890909;
+  color: white;
+}
+#wedding{
+  grid-column: 1/2;
+  grid-row: 3/4;
+  background-image: url('../images/weddingcake.jpg');
+  width: 50%;
+  height: 90%;
+  margin: 0 auto;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 2em;
+  text-shadow: -1px 0 #890909, 0 1px #890909, 1px 0 #890909, 0 -1px #890909;
+  color: white;
+}
+#custom{
+  grid-column: 1/2;
+  grid-row: 4/5;
+  background-image: url('../images/customcake.jpg');
+  width: 50%;
+  height: 90%;
+  margin: 0 auto;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 2em;
+  text-shadow: -1px 0 #890909, 0 1px #890909, 1px 0 #890909, 0 -1px #890909;
+  color: white;
+}
+
+#fullPrice{
+  grid-column: 2/3;
+  grid-row: 1/2;
+  text-align: center;
+  font-size: 2em;
+  margin: auto auto;
+  text-shadow: -1px 0 papayawhip, 0 1px papayawhip, 1px 0 papayawhip, 0 -1px papayawhip;
+  color: #890909;
+  // background:rgba(255, 255, 255, 0.5);
+padding: 5px;
+}
+
+#halfPrice{
+  grid-column: 2/3;
+  grid-row: 2/3;
+  text-align: center;
+  font-size: 2em;
+  margin: auto auto;
+  text-shadow: -1px 0 papayawhip, 0 1px papayawhip, 1px 0 papayawhip, 0 -1px papayawhip;
+  color: #890909;
+  // background:rgba(255, 255, 255, 0.5);
+padding: 5px;
+}
+
+#weddingPrice{
+  grid-column: 2/3;
+  grid-row: 3/4;
+  text-align: center;
+  font-size: 2em;
+  margin: auto auto;
+  text-shadow: -1px 0 papayawhip, 0 1px papayawhip, 1px 0 papayawhip, 0 -1px papayawhip;
+  color: #890909;
+  // background:rgba(255, 255, 255, 0.5);
+padding: 5px;
+}
+
+#customPrice{
+  grid-column: 2/3;
+  grid-row: 4/5;
+  text-align: center;
+  font-size: 2em;
+  margin: auto auto;
+  text-shadow: -1px 0 papayawhip, 0 1px papayawhip, 1px 0 papayawhip, 0 -1px papayawhip;
+  color: #890909;
+  // background:rgba(255, 255, 255, 0.5);
+padding: 5px;
+}

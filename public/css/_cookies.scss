@@ -1,0 +1,19 @@
+.wrapper3{
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows:1fr 1fr 1fr;
+}
+
+#smallPlatter{
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+#mediumPlatter{
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+#largePlatter{
+  grid-column: 1/2;
+  grid-row: 3/4;
+}

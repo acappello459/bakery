@@ -1,0 +1,101 @@
+body{
+  font-family:cursive;
+}
+#title{
+  text-decoration: underline;
+  text-align: center;
+  background: none;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  color: #6495ED;;
+  // border: 2px solid;
+}
+.wrapper1{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  // grid-gap: 5px;
+  width: 100%;
+  height: 75vh;
+  margin: 10% auto;
+}
+
+#cake{
+  background-image: url("../images/cakebackground.jpg");
+  grid-column: 1/2;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 93%;
+  height: 100%;
+  border-radius: 5px;
+  text-align: center;
+  margin: 0 auto;
+  text-decoration: none;
+  transition: all .1s ease-in-out;
+}
+
+#cookie{
+  background-image: url("../images/cookiebackground.jpg");
+  grid-column: 2/3;
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+  width: 93%;
+  height: 100%;
+  border-radius: 5px;
+  text-align: center;
+  margin: 0 auto;
+  text-decoration: none;
+  transition: all .1s ease-in-out;
+}
+
+#pie{
+  background-image: url("../images/piebackground.jpg");
+  grid-column: 3/4;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 93%;
+  height: 100%;
+  border-radius: 5px;
+  text-align: center;
+  margin: 0 auto;
+  text-decoration: none;
+  transition: all .1s ease-in-out;
+}
+
+#cake:hover{
+  transform: scale(1.1);
+  #text{
+    font-size: 4em;
+    text-decoration: underline;
+  }
+}
+#cookie:hover{
+  transform: scale(1.1);
+  #text{
+    font-size: 4em;
+    text-decoration: underline;
+  }
+}
+#pie:hover{
+  transform: scale(1.1);
+#text{
+    font-size: 4em;
+    text-decoration: underline;
+  }
+}
+
+p{
+  background: none;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2em;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  color: #6495ED;
+}
+
+#text{
+  font-family: cursive;
+  margin: 15% auto;
+  font-size: 3em;
+  background: none;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  color: #6495ED;;
+}
