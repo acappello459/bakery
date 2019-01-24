@@ -1,6 +1,3 @@
-# app.rb
-class App < Sinatra::Base
-  get "/" do
-    "Hello world!"
-  end
-end
+require 'rubygems'
+require 'sinatra'
+run Sinatra::Application
